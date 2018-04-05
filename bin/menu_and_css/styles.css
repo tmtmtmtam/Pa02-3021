@@ -1,0 +1,64 @@
+.menu-title {
+    -fx-font-size: 35;
+	-fx-font-style: italic;
+	-fx-font-weight: bold;
+	-fx-color: #003300;
+}
+
+.menu-background {
+        -fx-background-color: #000000 !important;
+        -fx-background-image: url("menu-image.jpg") !important;
+        -fx-background-repeat: no-repeat !important;
+        -fx-background-position: center !important;  
+}
+.gameStart-background{
+
+        -fx-background-color: #000000 !important;
+        -fx-background-image: url("gameStart.png") !important;
+        -fx-background-repeat: no-repeat !important;
+        -fx-background-position: center !important;
+}
+
+.game-play{
+	-fx-font-size: 15;
+	-fx-background-color: #ccffff;
+
+}
+.gamePlay-background{
+        -fx-background-color: #000000 !important;
+        -fx-background-image: url("gamePlay.png") !important;
+        -fx-background-repeat: no-repeat !important;
+        -fx-background-position: center !important;
+}
+	
+.menu-button {
+	-fx-background-color: #ccccff;
+     -fx-pref-width:200;
+     -fx-pref-height:40;
+     -fx-padding: 8 15 15 15;
+     -fx-font-size: 14px;
+     -fx-border-radius: 50 10 50 10;
+     -fx-background-radius: 50 10 50 10;
+}
+.gameStart-button {
+	-fx-background-color: #ccccff;
+     -fx-pref-width:200;
+     -fx-pref-height:40;
+     -fx-padding: 8 15 15 15;
+     -fx-font-size: 14px;
+     -fx-border-radius: 10 50 50 10;
+     -fx-background-radius: 10 50 50 10;
+}
+
+.gameOver-background {
+        -fx-background-color: #000000 !important;
+        -fx-background-image: url("gameOver.jpg") !important;
+        -fx-background-repeat: no-repeat !important;
+        -fx-background-position: center !important;
+}
+
+.gameOver-title{
+	-fx-font-size: 35;
+	-fx-font-weight: bold;
+	-fx-background-color: red;
+}
